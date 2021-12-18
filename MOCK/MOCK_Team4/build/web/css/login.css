@@ -1,0 +1,94 @@
+body {
+    background: #eee !important;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 30px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+#menu{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ul
+{
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0 ;
+    padding: 0 30px 0 0;
+    list-style: none;
+}
+
+ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li p 
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #2C5463;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul li p:hover 
+{
+    background: #95A9B1;
+}
+li:hover ul 
+{
+    display: block;
+    position: absolute;
+}
+
+
+
+li:hover p
+{
+    background: #95A9B1;
+}
+
+li:hover li p:hover 
+{
+    background: #95A9B1;
+}
